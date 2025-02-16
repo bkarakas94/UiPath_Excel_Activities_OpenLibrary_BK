@@ -1,0 +1,74 @@
+{
+  "DisplayName": "RANGE_Find_First_NON_Empty_Cell",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_FilePATH_XL",
+      "DisplayName": "in_FilePATH_XL",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_WorkSHEET_Name",
+      "DisplayName": "in_WorkSHEET_Name",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Cell_Start",
+      "DisplayName": "in_Cell_Start",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Direction",
+      "DisplayName": "in_Direction",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Right",
+      "Widget": "Dropdown",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": [
+        "Right",
+        "Left",
+        "Down",
+        "Up"
+      ]
+    },
+    {
+      "Name": "out_Found_Cell",
+      "DisplayName": "out_Found_Cell",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "DisplayName": "RANGE_Add_Borders",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_FilePATH_XL",
+      "DisplayName": "in_FilePATH_XL",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_WorkSHEET_Name",
+      "DisplayName": "in_WorkSHEET_Name",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Range",
+      "DisplayName": "in_Range",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_BorderType",
+      "DisplayName": "in_BorderType",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "ALL",
+      "Widget": "Dropdown",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": [
+        "NO",
+        "OUTSIDE",
+        "ALL",
+        "THICK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "DisplayName": "Find_EmptyNonEmpty_Cell_Example",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_FilePATH_XLSX_Challenge",
+      "DisplayName": "in_FilePATH_XLSX_Challenge",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "C:\\Users\\Baris\\Documents\\_CV Stuff\\UiPath_Excel_Activities_WithHandle_OpenLibrary\\_EXAMPLE_COMPONENTS\\challenge.xlsx",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_FilePATH_XLSX_Downloads",
+      "DisplayName": "in_FilePATH_XLSX_Downloads",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "C:\\Users\\Baris\\Downloads\\_Deneme.xlsx",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

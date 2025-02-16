@@ -1,0 +1,21 @@
+{
+  "DisplayName": "ExcelApp_Get_List_Of_WorkBOOKs",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "out_list_WorkBOOKs",
+      "DisplayName": "out_list_WorkBOOKs",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

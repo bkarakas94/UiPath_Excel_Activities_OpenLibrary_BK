@@ -1,0 +1,106 @@
+{
+  "DisplayName": "RANGE_Copy_Paste_Advanced",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_FilePATH_XL_FROM",
+      "DisplayName": "in_FilePATH_XL_FROM",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_WorkSHEET_Name_FROM",
+      "DisplayName": "in_WorkSHEET_Name_FROM",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Range_FROM",
+      "DisplayName": "in_Range_FROM",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_FilePATH_XL_TO",
+      "DisplayName": "in_FilePATH_XL_TO",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_WorkSHEET_Name_TO",
+      "DisplayName": "in_WorkSHEET_Name_TO",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Range_TO",
+      "DisplayName": "in_Range_TO",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_XLPasteType",
+      "DisplayName": "in_XLPasteType",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "xlPasteValuesAndNumberFormats",
+      "Widget": "Dropdown",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": [
+        "xlPasteValues",
+        "xlPasteComments",
+        "xlPasteFormulas",
+        "xlPasteFormats",
+        "xlPasteAll",
+        "xlPasteValidation",
+        "xlPasteAllExceptBorders",
+        "xlPasteColumnWidths",
+        "xlPasteFormulasAndNumberFormats",
+        "xlPasteValuesAndNumberFormats",
+        "xlPasteAllUsingSourceTheme",
+        "xlPasteAllMergingConditionalFormats"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "UiPath_Excel_Activities_OpenLibrary_BK",
+  "projectId": "b7463b87-ae12-40e9-be12-43ef86f3fd77",
+  "description": "Source code for UiPath Excel Activities by Baris Karakas. You can modify this library for your organization and not worry about installing third party licensed libraries. For questions and issues /in/bariskarakas/\r\nMy github: BKARAKAS94",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "2.25.1-preview",
+    "UiPath.System.Activities": "24.10.7"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.157.0",
+  "projectVersion": "1.0.8",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": [
+        "_EXAMPLE_COMPONENTS/Copy_Data_Betwen_WBs_Example.xaml",
+        "_EXAMPLE_COMPONENTS/Copy_Data_Betwen_WBs_Example_2.xaml",
+        "_EXAMPLE_COMPONENTS/Find_EmptyNonEmpty_Cell_Example.xaml"
+      ]
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

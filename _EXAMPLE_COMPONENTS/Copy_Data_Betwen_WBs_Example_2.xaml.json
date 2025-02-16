@@ -1,0 +1,69 @@
+{
+  "DisplayName": "Copy_Data_Betwen_WBs_Example_2",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_FilePATH_XLSX_FROM",
+      "DisplayName": "in_FilePATH_XLSX_FROM",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "C:\\Users\\Baris\\Documents\\_CV Stuff\\UiPath_Excel_Activities_OpenLibrary_BK\\_EXAMPLE_COMPONENTS\\Config_1.xlsx",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_FilePATH_XLSX_TO",
+      "DisplayName": "in_FilePATH_XLSX_TO",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "C:\\Users\\Baris\\Downloads\\_Deneme.xlsx",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_New_WorkSheet_Name",
+      "DisplayName": "in_New_WorkSheet_Name",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Baris Karakas",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_CopyRange",
+      "DisplayName": "in_CopyRange",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "A1:B5",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_WorkSheet_Name_Copy_From",
+      "DisplayName": "in_WorkSheet_Name_Copy_From",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Settings",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

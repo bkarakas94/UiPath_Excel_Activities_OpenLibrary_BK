@@ -1,0 +1,48 @@
+{
+  "DisplayName": "WorkSHEET_Hide_UNHide",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_FilePATH_XL",
+      "DisplayName": "in_FilePATH_XL",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_WorkSHEET_Name",
+      "DisplayName": "in_WorkSHEET_Name",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Worksheet_Visibility",
+      "DisplayName": "in_Worksheet_Visibility",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Hide",
+      "Widget": "Dropdown",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": [
+        "Hide",
+        "Unhide"
+      ]
+    }
+  ]
+}
